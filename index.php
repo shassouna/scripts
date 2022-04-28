@@ -1,13 +1,15 @@
 <?php
-  function urlValid($file){
-    $file_headers = @get_headers($file);
-    if(!$file_headers || $file_headers[0] == 'HTTP/1.1 404 Not Found') {
-        $exists = "false";
+  function urlValid($url){
+
+    $array = get_headers($url);
+    $string = $array[0];
+    if(strpos($string,"200")) {
+        $exist = 'true';
+    } else {
+        $exist = 'false';
     }
-    else {
-        $exists = "true";
-    }
-    return $exists;
+    
+    return $exist;
   }
 
 
