@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02 pain.008.001.02.xsd">
+<CstmrDrctDbtInitn>
+	<GrpHdr>
+		<MsgId>DISTRIMART - 20220502 - 145146</MsgId>
+		<CreDtTm>2022-05-02T14:51:46</CreDtTm>
+		<NbOfTxs>13</NbOfTxs>
+		<CtrlSum>2377.20</CtrlSum>
+		<InitgPty>
+			<Nm>DISTRIMART - DECOFINDER</Nm>
+		</InitgPty>
+	</GrpHdr>
+	<PmtInf>
+		<PmtInfId>PREL RCUR 20220502 - 145146</PmtInfId>
+		<PmtMtd>DD</PmtMtd>
+		<BtchBookg>false</BtchBookg>
+		<NbOfTxs>13</NbOfTxs>
+		<CtrlSum>2377.20</CtrlSum>
+		<PmtTpInf>
+			<SvcLvl>
+				<Cd>SEPA</Cd>
+			</SvcLvl>
+			<LclInstrm>
+				<Cd>CORE</Cd>
+			</LclInstrm>
+			<SeqTp>RCUR</SeqTp>
+		</PmtTpInf>
+		<ReqdColltnDt>2022-05-02</ReqdColltnDt>
+		<Cdtr>
+			<Nm>DISTRIMART</Nm>
+		</Cdtr>
+		<CdtrAcct>
+			<Id>
+				<IBAN>FR7630066100910001038660112</IBAN>
+			</Id>
+		</CdtrAcct>
+		<CdtrAgt>
+			<FinInstnId>
+				<BIC>CMCIFRPP</BIC>
+			</FinInstnId>
+		</CdtrAgt>
+		<ChrgBr>SLEV</ChrgBr>
+		<CdtrSchmeId>
+			<Id>
+				<PrvtId>
+					<Othr>
+						<Id>FR08ZZZ420749</Id>
+						<SchmeNm>
+							<Prtry>SEPA</Prtry>
+						</SchmeNm>
+					</Othr>
+				</PrvtId>
+			</Id>
+		</CdtrSchmeId>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 134319 RCUR 81051</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">165.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7461</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CUIR AU CARRE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004029540001002041695</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81051</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 143405 RCUR 81050</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">93.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7466</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP845</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CHABRET</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7614506000107280486108523</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81050</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 143808 RCUR 81052</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">165.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7464</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP887</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>HEATING DESIGN - HOC</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7618706000007215701316479</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81052</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 14648 RCUR 81053</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">237.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7454</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>Lothantique</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004006160002161165946</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81053</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 21015 RCUR 81054</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">237.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7527</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>Amelie et Melanie</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004006160002161165946</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81054</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 144308 RCUR 81055</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">165.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7527</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP869</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>POTERIE GOICOECHEA</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7616906000420101622500159</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81055</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 160340 RCUR 81056</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">164.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7617</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>NORDFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>MARC DE LADOUCETTE PARIS</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630076020461096090020068</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81056</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 472236 RCUR 81057</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">237.60</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7329</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>SOGEFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>Douelledereve</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630003039820002700041725</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81057</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 32307 RCUR 81059</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">198.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7458</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCFRFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>Reignoux Creations</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630056007390739382076553</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81059</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf> 
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 89845 RCUR 81060</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">352.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7446</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>SOGEFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>BURGBAD</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630003005920002002948822</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81060</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 135702 RCUR 80924</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7473</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCBPFRPPDJN</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>IN CREATION</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7610807004073212181413426</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80924</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 57259 RCUR 81063</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7410</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCBPFRPPDJN</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CasaLux Home Design</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7610807004073212181413426</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81063</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 57259 RCUR 81063</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7331</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>agrifrpp887</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CHEMIN DE CAMPAGNE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>fr7618706000009751291939531</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N81063</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+	</PmtInf>
+</CstmrDrctDbtInitn>
+</Document>
+

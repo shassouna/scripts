@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02 pain.008.001.02.xsd">
+<CstmrDrctDbtInitn>
+	<GrpHdr>
+		<MsgId>DISTRIMART - 20220104 - 115722</MsgId>
+		<CreDtTm>2022-01-04T11:57:22</CreDtTm>
+		<NbOfTxs>33</NbOfTxs>
+		<CtrlSum>4276.60</CtrlSum>
+		<InitgPty>
+			<Nm>DISTRIMART - DECOFINDER</Nm>
+		</InitgPty>
+	</GrpHdr>
+	<PmtInf>
+		<PmtInfId>PREL RCUR 20220104 - 115722</PmtInfId>
+		<PmtMtd>DD</PmtMtd>
+		<BtchBookg>false</BtchBookg>
+		<NbOfTxs>33</NbOfTxs>
+		<CtrlSum>4276.60</CtrlSum>
+		<PmtTpInf>
+			<SvcLvl>
+				<Cd>SEPA</Cd>
+			</SvcLvl>
+			<LclInstrm>
+				<Cd>CORE</Cd>
+			</LclInstrm>
+			<SeqTp>RCUR</SeqTp>
+		</PmtTpInf>
+		<ReqdColltnDt>2022-01-04</ReqdColltnDt>
+		<Cdtr>
+			<Nm>DISTRIMART</Nm>
+		</Cdtr>
+		<CdtrAcct>
+			<Id>
+				<IBAN>FR7630066100910001038660112</IBAN>
+			</Id>
+		</CdtrAcct>
+		<CdtrAgt>
+			<FinInstnId>
+				<BIC>CMCIFRPP</BIC>
+			</FinInstnId>
+		</CdtrAgt>
+		<ChrgBr>SLEV</ChrgBr>
+		<CdtrSchmeId>
+			<Id>
+				<PrvtId>
+					<Othr>
+						<Id>FR08ZZZ420749</Id>
+						<SchmeNm>
+							<Prtry>SEPA</Prtry>
+						</SchmeNm>
+					</Othr>
+				</PrvtId>
+			</Id>
+		</CdtrSchmeId>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 534094 RCUR 80865</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">69.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7338</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CMCIFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>BONA FIDE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630066100510002041250287</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80865</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 89845 RCUR 80853</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">132.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7446</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>SOGEFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>BURGBAD FRANCE S A S </Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630003005920002002948822</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80853</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 28557 RCUR 80830</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7437</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CMBRFR2BCME</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CADIOU</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7618829294120107433154097</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80830</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 58206 RCUR 80834</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">168.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7398</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CMCIFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CANAPE SHOW</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630066108880001048210126</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80834</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 57259 RCUR 80856</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">60.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7410</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCFRFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CASALUX HOME DESIGN SARL</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630056000930093001743950</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80856</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 56174 RCUR 80839</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7457</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP866</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CONCEPT 3000 SARL</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7616606100360842871911124</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80839</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 18442 RCUR 80835</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">168.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7515</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP831</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CRISTAL DECORS</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7613106005001016709115150</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80835</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 134319 RCUR 80842</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">82.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7461</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>CUIR AU CARRE SARL</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004029540001002041695</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80842</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 55908 RCUR 80838</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">168.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7506</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>MONTFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>D   K INTERIORS SARL</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630478000040235069800197</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80838</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 472236 RCUR 80849</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">118.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7329</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>SOGEFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>ECO DESIGN CONSTRUCTION</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630003039820002700041725</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80849</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 143405 RCUR 80841</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">46.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7466</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP845</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>ETABLISSEMENT BEAL</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7614506000107280486108523</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80841</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 39970 RCUR 80840</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">274.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7501</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CMCIFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>GLS INDUSTRIE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630087330450005656250260</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80840</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 474254 RCUR 80852</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">47.88</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7274</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCBPFRPPNAN</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>GREEN SAILS</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7613807000273052177171254</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80852</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 143808 RCUR 80844</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">82.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7464</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP887</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>HEATING DESIGN</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7618706000007215701316479</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80844</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 84788 RCUR 80843</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">118.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7659</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCBPFRPPGRE</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>INTERNATIONAL GLASS SYSTEM</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7616807001020022101291344</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80843</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 56854 RCUR 80832</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">168.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7670</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CRLYFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>LA FORGE  DE LA MAISON DIEU</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR3830002075340000070573V47</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80832</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 21015 RCUR 80846</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">118.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7527</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>LOTHANTIQUE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004006160002161165946</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80846</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 14708 RCUR 81051</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">240.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7421</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCFRFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>MAISON DE VACANCES SAS</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630056000730073200067541</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80829</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 160340 RCUR 80795</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">100.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7617</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>NORDFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>MARC DE LADOUCETTE PARIS</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630076020461096090020068</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80795</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 16005 RCUR 80833</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">168.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7397</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>MOISSONNIER</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004022490001111503384</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80833</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 518650 RCUR 80862</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">362.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7569</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>LOYDGB21682</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>POSH TRADING COMPANY</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>GB04 LOYD 3065 4136 5198 60</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80862</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 144308 RCUR 80847</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">82.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7324</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP869</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>POTERIES GOICOECHEA SARL</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7616906000420101622500159</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80847</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 32307 RCUR 80851</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">99.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7458</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCFRFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>REIGNOUX CREATIONS</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630056007390739382076553</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80851</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 14648 RCUR 80845</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">118.80</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7454</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BNPAFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>S A S  LOTHANTIQUE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630004006160002161165946</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80845</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 34048 RCUR 80863</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">49.20</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7554</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCBPFRPPPPG</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>SARL ROUVIERE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7616607002750938469301456</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80863</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 434053 RCUR 80824</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">42.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7590</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CMCIFR2A</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>SAS 111</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7611899001240001003780268</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80824</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 513378 RCUR 80864</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">156.12</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7290</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CCBPFRPPMTG</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>SAS ART WOOD DESIGN</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7610207000462221965030419</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80864</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 515262 RCUR 80857</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">60.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7331</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>AGRIFRPP887</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>SAS COMPTOIR DECO</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7618706000009751291939531</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80857</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 41451 RCUR 80831</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7620</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CMCIFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>SAS TRANSEXIM</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7610096185650002435880178</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80831</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 64712 RCUR 80860</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">265.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7361</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BCITITMMXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>SPHAUS DESIGN</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>IT85N0306933841100000006705</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80860</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 55603 RCUR 80837</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">180.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7584</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>SOGEFRPP</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>VINCENZO QUAGLIOTTI E FIGLI S P A </Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR7630003034600002075055178</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80837</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 532794 RCUR 80861</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">49.20</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7305</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>BBRUBEBB</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>VIVENLA</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>BE47363196632780</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80861</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+		<DrctDbtTxInf>
+			<PmtId>
+				<EndToEndId>PREL 58522 RCUR 80836</EndToEndId>
+			</PmtId>
+			<InstdAmt Ccy="EUR">120.00</InstdAmt>
+			<DrctDbtTx>
+				<MndtRltdInf>
+					<MndtId>++7560</MndtId>
+					<DtOfSgntr>2021-06-02</DtOfSgntr>
+				</MndtRltdInf>
+			</DrctDbtTx>
+			<DbtrAgt>
+				<FinInstnId>
+					<BIC>CRLYFRPPXXX</BIC>
+				</FinInstnId>
+			</DbtrAgt>
+			<Dbtr>
+				<Nm>ZERO ONE ONE</Nm>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN>FR2030002004370000009855E70</IBAN>
+				</Id>
+			</DbtrAcct>
+			<RmtInf>
+				<Ustrd>Facture N80836</Ustrd>
+			</RmtInf>
+		</DrctDbtTxInf>
+	</PmtInf>
+</CstmrDrctDbtInitn>
+</Document>
+
